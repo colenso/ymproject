@@ -1,0 +1,34 @@
+/* 
+    Document   : common
+    Created on : 9 May, 2013, 2:22:17 PM
+    Author     : Colenso
+    Description:
+        Purpose of the stylesheet follows.
+*/
+html, body {
+    height: 100%;
+}
+
+#wrap {
+    height: auto !important;
+    margin: 0 auto -40px;
+    min-height: 100%;
+}
+#wrap > .container {
+    padding-top: 60px;
+}
+
+#push,
+#footer {
+    height: 40px;
+}
+#footer{
+    background-color: #EAEAEA;
+}
+.container .credit {
+    margin: 10px auto;
+    width: 300px;
+}
+.muted {
+    color: #999999;
+}
